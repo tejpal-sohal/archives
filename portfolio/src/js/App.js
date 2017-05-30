@@ -10,6 +10,7 @@ import PortfolioModals from './PortfolioModals'
 import About from './About'
 import Contact from './Contact'
 import Footer from './Footer'
+import Message from './Console'
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         <About />
         <Contact />
         <Footer />
+        <Message />
       </div>
     );
   }
