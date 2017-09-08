@@ -13,6 +13,8 @@ import dmuPreview from '../img/portfolio/dmupreview.png'
 import povray from '../img/portfolio/povray.png'
 import luco from '../img/portfolio/luco.png'
 import bender from '../img/portfolio/bender.mp4'
+import summer from '../img/portfolio/summerPrev.png'
+import storeWifi from '../img/portfolio/guestWifiPrev.png';
 
 class ProfolioModals extends Component {
     render() {
@@ -416,6 +418,55 @@ class ProfolioModals extends Component {
                                         <a target="_blank" rel="noopener noreferrer" href="https://www.mailfinance.co.uk/"><p className="item-intro text-muted">click here to visit website</p></a>
                                         <img className="img-responsive img-centered" src={mailFinancePrev} alt="" />
                                         <p>HTML5/CSS3/Zend Framework</p>
+                                        <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="portfolio-modal modal fade" id="portfolioModal16" tabIndex="-1" role="dialog" aria-hidden="true">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl">
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="modal-body">
+                                        {/*<!-- Project Details Go Here -->*/}
+                                        <h2>Free The Summer</h2>
+                                        <a target="_blank" rel="noopener noreferrer" href="http://www.newlook.com/row/free-the-summer"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <img className="img-responsive img-centered" src={summer} alt="" />
+                                        <p>Hybris/HTML5/CSS3/JS</p>
+                                        <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="portfolio-modal modal fade" id="portfolioModal17" tabIndex="-1" role="dialog" aria-hidden="true">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl">
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="modal-body">
+                                        {/*<!-- Project Details Go Here -->*/}
+                                        <h2>Store Wifi</h2>
+                                        <p className="item-intro text-muted">In Store Wifi</p>
+                                        <img className="img-responsive img-centered" src={storeWifi} alt="" />
+                                        <p>HTML5/CSS3/JS</p>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
                                     </div>
                                 </div>
