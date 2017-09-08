@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Projects from './Project'
+import lfw from '../img/portfolio/lfw.png' 
 import storeWifi from '../img/portfolio/guestWifi.png' 
 import freethesummer from '../img/portfolio/feelthesummer.png' 
 import mailsubs from '../img/portfolio/mailsubs.png' 
@@ -30,6 +31,7 @@ class Portfolio extends Component {
                 </div>
             </div>
             <div className="row">
+                <Projects href={'#portfolioModal18'} projectImg={lfw} heading={'London Fashion Week'} muted={'Website'}/>  
                 <Projects href={'#portfolioModal17'} projectImg={storeWifi} heading={'Store Wifi'} muted={'In Store'}/>  
                 <Projects href={'#portfolioModal16'} projectImg={freethesummer} heading={'Free The Summer'} muted={'Website'}/>   
                 <Projects href={'#portfolioModal10'} projectImg={mailsubs} heading={'Mail Subscriptions'} muted={'Website'}/>
