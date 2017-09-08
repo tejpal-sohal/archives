@@ -5,7 +5,7 @@ class Header extends Component {
     return (
     //   <!-- Header -->
     <header>
-        <div className="container">
+        <div className="container" id="page-top">
             <div className="intro-text">
                 <div className="intro-lead-in">Welcome To My Online Profile</div>
                 <div className="intro-heading">It's Nice To Meet You</div>
