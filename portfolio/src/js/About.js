@@ -10,6 +10,7 @@ import five from '../img/about/5.jpg'
 import six from '../img/about/6.jpg'
 import seven from '../img/about/7.jpg'
 import eight from '../img/about/8.jpg'
+import newlook from '../img/about/newlookLogo.png'
 
 class About extends Component {
   render() {
@@ -25,6 +26,7 @@ class About extends Component {
             <div className="row">
                 <div className="col-lg-12">
                     <ul className="timeline">
+                            <Journey inverted={'timeline-inverted'} img={newlook} subHeading={'Newlook'} muted={'New Look is a South African-owned British global fashion retailer with a chain of high street shops and eCommerce.'}/>
                             <Journey img={one} subHeading={'dmg::media'} muted={'DMG Media is a leading multi-channel consumer media company which is home to some of the UK’s most popular brands, including the Daily Mail, MailOnline, The Mail on Sunday, Metro, Wowcher, Jobsite and Jobrapido. Part of DMGT, DMG Medias portfolio of national newspapers, websites and mobile and tablet applications regularly reach 55% of the GB adult population.'}/>
                             <Journey inverted={'timeline-inverted'} img={two} subHeading={'Centrica'} muted={'Centrica plc is a British multinational utility company with its headquarters in Windsor, Berkshire. Its principal activity is the supply of electricity and gas to businesses and consumers in the United Kingdom and North America. It is the largest supplier of gas to domestic customers in the UK, and one of the largest suppliers of electricity'}/>
                             <Journey img={three} subHeading={'BBC News'} muted={'BBC News is an operational business division of the British Broadcasting Corporation (BBC) responsible for the gathering and broadcasting of news and current affairs. The department is the worlds largest broadcast news organisation and as well as online news coverage.'}/>
