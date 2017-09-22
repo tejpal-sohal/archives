@@ -601,6 +601,16 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
+
+    .max-60 {
+        max-width: 60%;
+
+    }
+
+    .max-50 {
+        max-width: 50%;
+
+    }
 }
 
 @media(min-width:1200px) {

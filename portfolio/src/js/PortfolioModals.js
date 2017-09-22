@@ -3,7 +3,7 @@ import dailymailplusPrev from '../img/portfolio/dailymailplusPrev.png'
 import myMailPrev from '../img/portfolio/myMailPrev.png'
 import dmgsitePrev from '../img/portfolio/dmgsitePrev.png'
 import mailFinancePrev from '../img/portfolio/mailfinancePrev.png'
-import mailsubsPrev from '../img/portfolio/mailsubsPrev.png'
+import mailsubsPrev from '../img/portfolio/mailSubsMain.png'
 import roundiconsFree from '../img/portfolio/roundicons-free.png'
 import treehousePreview from '../img/portfolio/treehouse-preview.png'
 import startupFrameworkPreview from '../img/portfolio/startup-framework-preview.png'
@@ -13,6 +13,7 @@ import dmuPreview from '../img/portfolio/dmupreview.png'
 import povray from '../img/portfolio/povray.png'
 import luco from '../img/portfolio/luco.png'
 import bender from '../img/portfolio/bender.mp4'
+import mainsummer from '../img/portfolio/newlookFeelMain.png'
 import summer from '../img/portfolio/summerPrev.png'
 import storeWifi from '../img/portfolio/guestWifiPrev.png';
 
@@ -278,13 +279,20 @@ class ProfolioModals extends Component {
                         </div>
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-8 col-lg-offset-2">
+                                <div className="col-lg-12">
                                     <div className="modal-body">
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>Mail Subscriptions</h2>
                                         <a target="_blank" rel="noopener noreferrer" href="https://www.mailsubscriptions.co.uk/"><p className="item-intro text-muted">click here to visit website</p></a>
-                                        <img className="img-responsive img-centered" src={mailsubsPrev} alt="" />
-                                        <p>Built using Bootstrap, JQuery and PHP Zend Framework</p>
+                                        <img className="img-responsive img-centered max-60" src={mailsubsPrev} alt="" />
+                                        <h3>Features</h3>
+                                        <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/device.gif" alt="" />
+                                        <p>Custom slider built to show that this product is avaiable on all platforms. This is updated everyday via AWS which pulls in the feed for the Newspaper Front page and other assets such as magazines</p>
+                                        <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/360.gif" alt="" />
+                                        <p>Pannellum Javascript library used to show 360 degree views of places around the world. This is updated everyday and is updated via AWS </p>
+                                        <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/menu.gif" alt="" />
+                                        <p>key frame animations written in css to create a slide animation. </p>
+                                        <strong><p>Built using Bootstrap, JQuery and PHP Zend Framework</p></strong>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
                                     </div>
                                 </div>
@@ -438,11 +446,17 @@ class ProfolioModals extends Component {
                                 <div className="col-lg-12">
                                     <div className="modal-body">
                                         {/*<!-- Project Details Go Here -->*/}
-                                        <h2>Free The Summer</h2>
+                                        <h2>free the summer</h2>
                                         <a target="_blank" rel="noopener noreferrer" href="http://www.newlook.com/row/free-the-summer"><p className="item-intro text-muted">click here to visit website</p></a>
-                                        <img className="img-responsive img-centered" src={summer} alt="" />
-                                        <p>Hybris/HTML5/CSS3/JS</p>
+                                        <img className="img-responsive img-centered max-60" src={mainsummer} alt="" />
+                                        <img className="img-responsive img-centered max-50" src={summer} alt="" />
+                                        <h3>Features</h3>
+                                        <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/feelthesummer.gif" alt="" />
+                                        <p>Campaign page for summer parallax scrolling to draw the user visually as they scroll</p>
+                                        <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/video.gif" alt="" />
+                                        <strong><p>Built on Hybris Platform</p></strong>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
+
                                     </div>
                                 </div>
                             </div>
@@ -465,7 +479,7 @@ class ProfolioModals extends Component {
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>Store Wifi</h2>
                                         <p className="item-intro text-muted">In Store Wifi</p>
-                                        <img className="img-responsive img-centered" src={storeWifi} alt="" />
+                                        <img className="img-responsive img-centered max-60" src={storeWifi} alt="" />
                                         <p>HTML5/CSS3/JS</p>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
                                     </div>
