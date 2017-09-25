@@ -14,7 +14,6 @@ import povray from '../img/portfolio/povray.png'
 import luco from '../img/portfolio/luco.png'
 import bender from '../img/portfolio/bender.mp4'
 import mainsummer from '../img/portfolio/newlookFeelMain.png'
-import summer from '../img/portfolio/summerPrev.png'
 import storeWifi from '../img/portfolio/guestWifiPrev.png';
 
 class ProfolioModals extends Component {
@@ -289,7 +288,7 @@ class ProfolioModals extends Component {
                                         <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/device.gif" alt="" />
                                         <p>Custom slider built to show that this product is avaiable on all platforms. This is updated everyday via AWS which pulls in the feed for the Newspaper Front page and other assets such as magazines</p>
                                         <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/360.gif" alt="" />
-                                        <p>Pannellum Javascript library used to show 360 degree views of places around the world. This is updated everyday and is updated via AWS </p>
+                                        <p>Pannellum Javascript library used to show 360 degree views of places around the world.</p>
                                         <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/menu.gif" alt="" />
                                         <p>key frame animations written in css to create a slide animation. </p>
                                         <strong><p>Built using Bootstrap, JQuery and PHP Zend Framework</p></strong>
@@ -449,7 +448,6 @@ class ProfolioModals extends Component {
                                         <h2>free the summer</h2>
                                         <a target="_blank" rel="noopener noreferrer" href="http://www.newlook.com/row/free-the-summer"><p className="item-intro text-muted">click here to visit website</p></a>
                                         <img className="img-responsive img-centered max-60" src={mainsummer} alt="" />
-                                        <img className="img-responsive img-centered max-50" src={summer} alt="" />
                                         <h3>Features</h3>
                                         <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/feelthesummer.gif" alt="" />
                                         <p>Campaign page for summer parallax scrolling to draw the user visually as they scroll</p>
