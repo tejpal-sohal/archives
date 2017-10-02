@@ -12,7 +12,7 @@ import centrica from '../img/portfolio/centrica.png'
 import dmuPreview from '../img/portfolio/dmupreview.png'
 import povray from '../img/portfolio/povray.png'
 import luco from '../img/portfolio/luco.png'
-import bender from '../img/portfolio/bender.mp4'
+// import bender from '../img/portfolio/bender.mp4'
 import mainsummer from '../img/portfolio/newlookFeelMain.png'
 import storeWifi from '../img/portfolio/guestWifiPrev.png';
 
@@ -229,9 +229,7 @@ class ProfolioModals extends Component {
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>Animation</h2>
                                         <p className="item-intro text-muted">Bender : from the hit TV series “Futurama”. </p>
-                                        <video width="560" height="340" preload="auto" controls>
-                                            <source src={bender} type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-                                        </video>
+                                        <iframe width="100%" height="315" src="//www.youtube.com/embed/tCX_OH7kzH8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                                         <p>The task for this assignment was to build a model character of any choice and to animate that character into the gallery.The character which is built should walk into the room and interact with the surroundings and look realistic. </p>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
                                     </div>
