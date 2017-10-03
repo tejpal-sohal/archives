@@ -15,6 +15,8 @@ import luco from '../img/portfolio/luco.png'
 // import bender from '../img/portfolio/bender.mp4'
 import mainsummer from '../img/portfolio/newlookFeelMain.png'
 import storeWifi from '../img/portfolio/guestWifiPrev.png';
+import mainLondonFW from '../img/portfolio/londonFWMain.jpg';
+import lfwMobile from '../img/portfolio/lfwMain.jpg';
 
 class ProfolioModals extends Component {
     render() {
@@ -229,7 +231,7 @@ class ProfolioModals extends Component {
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>Animation</h2>
                                         <p className="item-intro text-muted">Bender : from the hit TV series “Futurama”. </p>
-                                        <iframe width="100%" height="315" src="//www.youtube.com/embed/tCX_OH7kzH8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                        <iframe title="bender" width="100%" height="315" src="//www.youtube.com/embed/tCX_OH7kzH8?rel=0&amp;showinfo=0" frameBorder="0" allowFullScreen></iframe>
                                         <p>The task for this assignment was to build a model character of any choice and to animate that character into the gallery.The character which is built should walk into the room and interact with the surroundings and look realistic. </p>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
                                     </div>
@@ -280,7 +282,7 @@ class ProfolioModals extends Component {
                                     <div className="modal-body">
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>Mail Subscriptions</h2>
-                                        <a target="_blank" rel="noopener noreferrer" href="https://www.mailsubscriptions.co.uk/"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="//www.mailsubscriptions.co.uk/"><p className="item-intro text-muted">click here to visit website</p></a>
                                         <img className="img-responsive img-centered max-60" src={mailsubsPrev} alt="" />
                                         <h3>Features</h3>
                                         <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/device.gif" alt="" />
@@ -313,7 +315,7 @@ class ProfolioModals extends Component {
                                     <div className="modal-body">
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>dmg::media careers</h2>
-                                        <a target="_blank" rel="noopener noreferrer" href="http://www.dmgmedia.co.uk/careers/"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="//www.dmgmedia.co.uk/careers/"><p className="item-intro text-muted">click here to visit website</p></a>
                                         <img className="img-responsive img-centered" src={dmgsitePrev} alt="" />
                                         <p>Built using Bootstrap, JQuery and Angular JS</p>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
@@ -342,7 +344,7 @@ class ProfolioModals extends Component {
                                         <h2>Motivation App</h2>
                                         <p className="item-intro text-muted">#motivation</p>
                                         {/*<!--     <img className="img-responsive img-centered" src="img/portfolio/dmgsitePrev.png" alt=""> -->*/}
-                                        <iframe src="https://s3-eu-west-1.amazonaws.com/instaqoute/index.html#/before5am" title="insta"></iframe>
+                                        <iframe src="//s3-eu-west-1.amazonaws.com/instaqoute/index.html#/before5am" title="insta"></iframe>
                                         <p>Application for motivation build using instagram API/Angular/Boostrap/AWS</p>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
                                     </div>
@@ -368,7 +370,7 @@ class ProfolioModals extends Component {
                                     <div className="modal-body">
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>Daily Mailplus</h2>
-                                        <a target="_blank" rel="noopener noreferrer" href="https://www.dailymailplus.co.uk/"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="//www.dailymailplus.co.uk/"><p className="item-intro text-muted">click here to visit website</p></a>
                                         <img className="img-responsive img-centered" src={dailymailplusPrev} alt="" />
                                         <p>HTML5/CSS3/JQuery</p>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
@@ -394,7 +396,7 @@ class ProfolioModals extends Component {
                                     <div className="modal-body">
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>My Mail</h2>
-                                        <a target="_blank" rel="noopener noreferrer" href="https://www.mymail.co.uk/home"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="//www.mymail.co.uk/home"><p className="item-intro text-muted">click here to visit website</p></a>
                                         <img className="img-responsive img-centered" src={myMailPrev} alt="" />
                                         <p>Built using Angular JS</p>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
@@ -420,7 +422,7 @@ class ProfolioModals extends Component {
                                     <div className="modal-body">
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>Mail Finance</h2>
-                                        <a target="_blank" rel="noopener noreferrer" href="https://www.mailfinance.co.uk/"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="//www.mailfinance.co.uk/"><p className="item-intro text-muted">click here to visit website</p></a>
                                         <img className="img-responsive img-centered" src={mailFinancePrev} alt="" />
                                         <p>HTML5/CSS3/Zend Framework</p>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
@@ -444,7 +446,7 @@ class ProfolioModals extends Component {
                                     <div className="modal-body">
                                         {/*<!-- Project Details Go Here -->*/}
                                         <h2>free the summer</h2>
-                                        <a target="_blank" rel="noopener noreferrer" href="http://www.newlook.com/row/free-the-summer"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="//www.newlook.com/row/free-the-summer"><p className="item-intro text-muted">click here to visit website</p></a>
                                         <img className="img-responsive img-centered max-60" src={mainsummer} alt="" />
                                         <h3>Features</h3>
                                         <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/feelthesummer.gif" alt="" />
@@ -476,7 +478,35 @@ class ProfolioModals extends Component {
                                         <h2>Store Wifi</h2>
                                         <p className="item-intro text-muted">In Store Wifi</p>
                                         <img className="img-responsive img-centered max-60" src={storeWifi} alt="" />
-                                        <p>HTML5/CSS3/JS</p>
+                                        <strong><p>HTML5/CSS3/JS</p></strong>
+                                        <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="portfolio-modal modal fade" id="portfolioModal18" tabIndex="-1" role="dialog" aria-hidden="true">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl">
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="modal-body">
+                                        {/*<!-- Project Details Go Here -->*/}
+                                        <h2>London Fashion Week 2017</h2>
+                                        <a target="_blank" rel="noopener noreferrer" href="//www.newlook.com/uk/London-fashion-week"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <img className="img-responsive img-centered max-50" src={mainLondonFW} alt="" />
+                                        <h3>Features</h3>
+                                        <p>designed for mobile experience with swipe-to-next-page functionality</p>
+                                        <img className="img-responsive img-centered max-60" src={lfwMobile} alt="" />
+                                        <strong><p>HTML5/CSS3/JS/Hybris</p></strong>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
                                     </div>
                                 </div>
