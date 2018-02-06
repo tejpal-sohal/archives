@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import Projects from './Project'
 import lfw from '../img/portfolio/lfw.png' 
 import storeWifi from '../img/portfolio/guestWifi.png' 
-import freethesummer from '../img/portfolio/feelthesummer.png' 
+import fitguide from '../img/portfolio/fitguide.jpg' 
+import hubpage from '../img/portfolio/denimhub.jpg'
 import mailsubs from '../img/portfolio/mailsubs.png' 
 import myMail from '../img/portfolio/myMail.png' 
 import dmgmedia from '../img/portfolio/dmgmedia.png' 
@@ -31,9 +32,10 @@ class Portfolio extends Component {
                 </div>
             </div>
             <div className="row">
+                <Projects href={'#portfolioModal19'} projectImg={hubpage} heading={'Denim Hub Page'} muted={'Website'}/>   
+                <Projects href={'#portfolioModal16'} projectImg={fitguide} heading={'Denim Fit Guide'} muted={'Website'}/>   
                 <Projects href={'#portfolioModal18'} projectImg={lfw} heading={'London Fashion Week'} muted={'Website'}/>  
                 <Projects href={'#portfolioModal17'} projectImg={storeWifi} heading={'Store Wifi'} muted={'In Store'}/>  
-                <Projects href={'#portfolioModal16'} projectImg={freethesummer} heading={'Free The Summer'} muted={'Website'}/>   
                 <Projects href={'#portfolioModal10'} projectImg={mailsubs} heading={'Mail Subscriptions'} muted={'Website'}/>
                 <Projects href={'#portfolioModal15'} projectImg={myMail} heading={'MyMail'} muted={'Website'}/>
                 <Projects href={'#portfolioModal11'} projectImg={dmgmedia} heading={'dmg::media careers'} muted={'Website'}/>

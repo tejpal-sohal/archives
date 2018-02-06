@@ -13,10 +13,14 @@ import dmuPreview from '../img/portfolio/dmupreview.png'
 import povray from '../img/portfolio/povray.png'
 import luco from '../img/portfolio/luco.png'
 // import bender from '../img/portfolio/bender.mp4'
-import mainsummer from '../img/portfolio/newlookFeelMain.png'
+import maindenimfitguide from '../img/portfolio/denimfitguideMain.jpg'
 import storeWifi from '../img/portfolio/guestWifiPrev.png';
 import mainLondonFW from '../img/portfolio/londonFWMain.jpg';
 import lfwMobile from '../img/portfolio/lfwMain.jpg';
+import fitguide from '../img/portfolio/newlook-uk-denim-fit-guide.jpg';
+import hubguide from '../img/portfolio/hubpagefull.jpg';
+import maindenimhub from '../img/portfolio/hubPage.jpg'
+
 
 class ProfolioModals extends Component {
     render() {
@@ -445,13 +449,11 @@ class ProfolioModals extends Component {
                                 <div className="col-lg-12">
                                     <div className="modal-body">
                                         {/*<!-- Project Details Go Here -->*/}
-                                        <h2>free the summer</h2>
-                                        <a target="_blank" rel="noopener noreferrer" href="//www.newlook.com/row/free-the-summer"><p className="item-intro text-muted">click here to visit website</p></a>
-                                        <img className="img-responsive img-centered max-60" src={mainsummer} alt="" />
+                                        <h2>Denim Fit Guide</h2>
+                                        <a target="_blank" rel="noopener noreferrer" href="//www.newlook.com/uk/denim-fit-guide"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <img className="img-responsive img-centered max-60" src={maindenimfitguide} alt="" />
                                         <h3>Features</h3>
-                                        <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/feelthesummer.gif" alt="" />
-                                        <p>Campaign page for summer parallax scrolling to draw the user visually as they scroll</p>
-                                        <img className="img-responsive img-centered max-50" src="//s3.eu-west-2.amazonaws.com/tej-portfolio-assets/video.gif" alt="" />
+                                        <img className="img-responsive img-centered max-60" src={fitguide} alt="" />
                                         <strong><p>Built on Hybris Platform</p></strong>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
 
@@ -508,6 +510,33 @@ class ProfolioModals extends Component {
                                         <img className="img-responsive img-centered max-60" src={lfwMobile} alt="" />
                                         <strong><p>HTML5/CSS3/JS/Hybris</p></strong>
                                         <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="portfolio-modal modal fade" id="portfolioModal19" tabIndex="-1" role="dialog" aria-hidden="true">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl">
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="modal-body">
+                                        {/*<!-- Project Details Go Here -->*/}
+                                        <h2>Denim Hub</h2>
+                                        <a target="_blank" rel="noopener noreferrer" href="//www.newlook.com/uk/denim-hub"><p className="item-intro text-muted">click here to visit website</p></a>
+                                        <img className="img-responsive img-centered max-60" src={maindenimhub} alt="" />
+                                        <h3>Features</h3>
+                                        <img className="img-responsive img-centered max-60" src={hubguide} alt="" />
+                                        <strong><p>Built on Hybris Platform/HTML5/CSS3/JS</p></strong>
+                                        <button type="button" className="btn btn-primary" data-dismiss="modal"><i className="fa fa-times"></i> Close Project</button>
+
                                     </div>
                                 </div>
                             </div>
