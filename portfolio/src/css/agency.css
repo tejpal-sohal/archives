@@ -125,7 +125,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #3a3a3a;
     background-color: #fed136;
 }
 
@@ -134,9 +134,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #3a3a3a;
     color: #fff;
-    background-color: #fec503;
+    background-color: #3a3a3a;
 }
 
 .btn-xl:active,
@@ -285,6 +285,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    text-shadow: #3a3a3a 2px 2px 2px;
 }
 
 header .intro-text .intro-heading {
@@ -294,6 +295,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    text-shadow: #3a3a3a 2px 2px 2px;
 }
 
 @media(min-width:768px) {
