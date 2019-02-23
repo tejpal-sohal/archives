@@ -15,19 +15,22 @@ class ServicesSection extends Component {
             </div>
             <br/>
             <br/>
-            <div className="row text-center">
-                    <Skills heading={'HTML'} icon={'fa-html5'} muted={'extensive knowledge of HTML5'}/>
-                    <Skills heading={'CSS3'} icon={'fa-css3'} muted={'use of SASS/LESS'} />
-                    <Skills heading={'JavaScript'} icon={'fa-code'} muted={'good understanding of Javascript including frameworks such as JQuery/AngularJs'} />
-                    <Skills heading={'Automation'} icon={'fa-cog'} spin={'fa-spin'} muted={'writen TDD automation with frameworks such as Jbehave with Selenium using Java.'} />
-                    <Skills heading={'Web Apps/Design'} icon={'fa-html5'} muted={'enjoy development of web sites and Apps using frameworks such as Bootstrap.'} />
-                    <Skills heading={'CMS'} icon={'fa-wordpress'} muted={'extensive knowledge of content management systems including low-level setup'} />
-                    <Skills heading={'Java'} icon={'fa-coffee'} muted={'good understanding of OOP principles'} />
-                    <Skills heading={'SQL'} icon={'fa-database'} muted={'good knowledge of SQL'} />
-                    <Skills heading={'Linux'} icon={'fa-linux'} muted={'loving terminal commands OS'} />
-                    <Skills heading={'github'} icon={'fa-github'} muted={'git version management'} />
-                    <Skills heading={'aws'} icon={'fa-cloud'} muted={'understanding of S3 buckets and elastic beanstalk web deployment'} />
-                    <Skills heading={'SEO'} icon={'fa-mobile'} muted={'implementaion of SEO, accessibility, web standards and cross browser compatibility'} />
+            <div className="row text-center hidden-xs hidden-sm ">
+                    <Skills heading={'HTML'} icon={'fab fa-html5'} muted={'extensive knowledge of HTML5'}/>
+                    <Skills heading={'CSS3'} icon={'fab fa-css3'} muted={'use of SASS/LESS'} />
+                    <Skills heading={'JavaScript'} icon={'fab fa-js'} muted={'good understanding of Javascript'} />
+                    <Skills heading={'React'} icon={'fab fa-react'} muted={'Framework'} />
+                    <Skills heading={'Vue'} icon={'fab fa-vuejs'} muted={'Framework'} />
+                    <Skills heading={'Sass'} icon={'fab fa-sass'} muted={'preprocessor scripting language'} />
+                    <Skills heading={'Automation'} icon={'fas fa-cog'} spin={'fa-spin'} muted={'writen TDD automation'} />
+                    <Skills heading={'Web Apps/Design'} icon={'fas fa-laptop'} muted={'frameworks such as Bootstrap.'} />
+                    <Skills heading={'CMS'} icon={'fab fa-wordpress'} muted={'content management systems'} />
+                    <Skills heading={'Java'} icon={'fas fa-coffee'} muted={'good understanding of OOP principles'} />
+                    <Skills heading={'SQL'} icon={'fas fa-database'} muted={'good knowledge of SQL'} />
+                    <Skills heading={'Linux'} icon={'fab fa-linux'} muted={'loving terminal commands OS'} />
+                    <Skills heading={'github'} icon={'fab fa-github'} muted={'git version management'} />
+                    <Skills heading={'aws'} icon={'fab fa-aws'} muted={'understanding of S3 buckets and elastic beanstalk web deployment'} />
+                    <Skills heading={'SEO'} icon={'fas fa-mobile'} muted={'implementaion of SEO, accessibility, web standards and cross browser compatibility'} />
             </div>
         </div>
     </section>

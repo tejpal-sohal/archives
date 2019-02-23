@@ -21,7 +21,7 @@ class App extends Component {
         <ServicesSection/>
         <Portfolio />
         <PortfolioModals />
-        <About />
+        {/* <About /> */}
         <Contact />
         <Footer />
         <Message />
