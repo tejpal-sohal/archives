@@ -8,19 +8,17 @@ class Contact extends Component {
                     <div className="row">
                         <div className="col-lg-12 text-center">
                             <h2 className="section-heading">Contact Me</h2>
-                            <h3 className="section-heading text-muted">any queries or opportunities please contact me</h3>
+                            <h3 className="section-heading text-muted">any queries or opportunities</h3>
+                            <div className="btn btn-xl">
+                            <a style={{color:"#000"}} href="mailto:tej.sohal@hotmail.co.uk">Email Me</a>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12 text-center">
-                            <h3 className="section-heading fa fa-envelope-square"> <a href="mailto:tej.sohal@hotmail.co.uk">Email</a> </h3>
                         </div>
                     </div>
                 </div>
-            </section>
-        )
-    }
-}
-
-
+                </section>
+                )
+            }
+        }
+        
+        
 export default Contact

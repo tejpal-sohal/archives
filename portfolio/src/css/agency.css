@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 .text-muted {
@@ -52,8 +52,9 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-weight: 700;
+
 }
 
 .img-centered {
@@ -71,7 +72,7 @@ h6 {
 .btn-primary {
     border-color: #fed136;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
@@ -122,7 +123,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #fed136;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #3a3a3a;
@@ -175,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Heebo', sans-serif;
     color: #fed136;
 }
 
@@ -206,7 +207,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -265,13 +266,28 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    /* background-image: url(../img/header-bg.jpg); */
+    /* background-color: #000; */
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.bg-one{
+    background-image: url(../img/header-bg.jpg);
+}
+
+.bg-two{
+    background-image: url(../img/header-bg-2.jpg);
+}
+.bg-three{
+    background-image: url(../img/header-bg-3.jpg);
+}
+.bg-four{
+    background-image: url(../img/header-bg-4.jpg);
 }
 
 header .intro-text {
@@ -281,21 +297,25 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-size: 22px;
-    font-style: italic;
+    font-style: normal;
     line-height: 22px;
     text-shadow: #3a3a3a 2px 2px 2px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: inherit !important;
+    font-family: 'Heebo', sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
     text-shadow: #3a3a3a 2px 2px 2px;
+}
+
+header .typed-cursor {
+    font-size: 50px;
 }
 
 @media(min-width:768px) {
@@ -306,19 +326,22 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'Heebo', sans-serif;
         font-size: 40px;
-        font-style: italic;
+        font-style: normal;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-family: 'Heebo', sans-serif;
+        font-size: 60px;
         font-weight: 700;
         line-height: 75px;
+    }
+    header .typed-cursor {
+        font-size: 60px;
     }
 }
 
@@ -335,7 +358,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -414,7 +437,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;;
     font-size: 16px;
     font-style: italic;
 }
@@ -700,28 +723,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -738,7 +761,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     line-height: 40px;
 }
 
@@ -746,7 +769,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     line-height: 40px;
 }
 
@@ -804,7 +827,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;;
     font-size: 16px;
     font-style: italic;
 }

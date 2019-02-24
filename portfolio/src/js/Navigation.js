@@ -15,7 +15,7 @@ class Navigation extends Component {
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                 </button>
-                <a className="navbar-brand page-scroll" href="#page-top">Tejpal Sohal</a>
+                <a className="navbar-brand page-scroll" href="#page-top">Tej Sohal | <span><i className="fab fa-dev"></i></span></a>
             </div>
             {/*<!-- Collect the nav links, forms, and other content for toggling -->*/}
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

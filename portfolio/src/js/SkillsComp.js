@@ -1,6 +1,7 @@
 import React from 'react';
 
 const SkillsComp = (props) => {
+    
     return (
         <div className="col-md-4">
             <span className="fa-stack fa-4x">
